@@ -58,6 +58,7 @@ cp .env.example .env
 # Add your OpenAI API key to .env file
 ```
 
+
 ### Running Locally
 
 ```bash
@@ -68,6 +69,9 @@ streamlit run demo/interface.py
 python demo/ingest_data.py    # Process resume data
 python demo/retriever.py      # Test retrieval system
 ```
+
+
+![Screenshot](ss.png)
 
 
 ## 🔬 Research & Evaluation
@@ -107,10 +111,6 @@ query = "Find data scientists with deep learning and healthcare domain experienc
 # Returns candidates ranked by technical skills and industry background
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! This project serves as a foundation for exploring AI in recruitment.
-
 **Areas for Enhancement:**
 - Additional retrieval strategies
 - Multi-language resume support  
@@ -122,10 +122,6 @@ We welcome contributions! This project serves as a foundation for exploring AI i
 1. Fork the repository
 2. Create a feature branch
 3. Submit a pull request with detailed description
-
-## 📄 License & Citation
-
-This project is part of academic research in AI-powered recruitment systems.
 
 ## 🙏 Acknowledgments
 
